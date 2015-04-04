@@ -1,0 +1,18 @@
+{
+  "name": "mui",
+  "version": "1.0.0",
+  "description": "HTML5 media center built using React & Reflux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "audio",
+    "react",
+    "reflux",
+    "js"
+  ],
+  "author": "Rohit",
+  "license": "MIT"
+}

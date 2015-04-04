@@ -14,5 +14,18 @@
     "js"
   ],
   "author": "Rohit",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.13.1",
+    "react-router": "^0.13.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.7",
+    "gulp": "^3.8.11",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.1.0",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.1.0"
+  }
 }

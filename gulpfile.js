@@ -6,7 +6,7 @@ var reactify   = require('reactify');
 
 gulp.task('watch', function() {
   var watcher = watchify(browserify({
-    entries: ['./index.js'],
+    entries: ['./src/jsx/app.jsx'],
     transform: [reactify],
     debug: true,
     fullPaths: true
@@ -14,12 +14,12 @@ gulp.task('watch', function() {
 
   return watcher.on('update', function() {
     watcher.bundle()
-        .pipe(source('build.js'))
-        .pipe(gulp.dest('.'));
+      .pipe(source('./src/js/app.js'))
+      .pipe(gulp.dest('.'));
     console.log('Updated');
   })
   .bundle()
-  .pipe(source('build.js'))
+  .pipe(source('./src/js/app.js'))
   .pipe(gulp.dest('.'));
 });
 
